@@ -16,6 +16,7 @@ yarn install
 
 ```
 npx prisma migrate deploy
+npx prisma generate
 ```
 
 3. Run code:
