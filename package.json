@@ -1,0 +1,9 @@
+{
+  "name": "prisma-occ",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@prisma/client": "^3.8.1"
+  }
+}

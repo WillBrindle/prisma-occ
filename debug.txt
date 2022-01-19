@@ -1,0 +1,367 @@
+risma:tryLoadEnv Environment variables loaded from /Users/willbrindle/repos/willbrindle/prisma-fail/.env +0ms
+  prisma:tryLoadEnv Environment variables loaded from /Users/willbrindle/repos/willbrindle/prisma-fail/.env +3ms
+  prisma:client clientVersion: 3.8.1 +0ms
+  prisma:client clientEngineType: library +1ms
+  prisma:client:libraryEngine internalSetup +0ms
+  prisma:client Prisma Client call: +7ms
+  prisma:client prisma.seat.create({
+  prisma:client   data: {
+  prisma:client     movie: 'test'
+  prisma:client   }
+  prisma:client }) +2ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   createOneSeat(data: {
+  prisma:client     movie: "test"
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: false +10ms
+  prisma:client:libraryEngine Searching for Query Engine Library in /Users/willbrindle/repos/willbrindle/prisma-fail/node_modules/.prisma/client +1ms
+  prisma:client:libraryEngine loadEngine using /Users/willbrindle/repos/willbrindle/prisma-fail/node_modules/.prisma/client/libquery_engine-darwin.dylib.node +0ms
+  prisma:client:libraryEngine library starting +33ms
+  prisma:client:libraryEngine library started +62ms
+  prisma:client Prisma Client call: +134ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +37ms
+  prisma:client Prisma Client call: +1ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +1ms
+  prisma:client Prisma Client call: +0ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +1ms
+  prisma:client Prisma Client call: +1ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +0ms
+  prisma:client Prisma Client call: +0ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +0ms
+  prisma:client Prisma Client call: +0ms
+  prisma:client prisma.seat.findFirst({
+  prisma:client   where: {
+  prisma:client     movie: 'test',
+  prisma:client     claimedBy: null
+  prisma:client   }
+  prisma:client }) +1ms
+  prisma:client Generated request: +0ms
+  prisma:client query {
+  prisma:client   findFirstSeat(where: {
+  prisma:client     movie: "test"
+  prisma:client     claimedBy: null
+  prisma:client   }) {
+  prisma:client     id
+  prisma:client     userId
+  prisma:client     claimedBy
+  prisma:client     movie
+  prisma:client     version
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +1ms
+Considering seat 2 v0 for user1
+  prisma:client Prisma Client call: +8ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user1',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user1"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +8ms
+Considering seat 2 v0 for user2
+  prisma:client Prisma Client call: +9ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user2',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user2"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +9ms
+Considering seat 2 v0 for user6
+  prisma:client Prisma Client call: +20ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user6',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +1ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user6"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +22ms
+Considering seat 2 v0 for user3
+  prisma:client Prisma Client call: +2ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user3',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user3"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +2ms
+Considering seat 2 v0 for user5
+  prisma:client Prisma Client call: +11ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user5',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +1ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user5"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +11ms
+Considering seat 2 v0 for user4
+  prisma:client Prisma Client call: +8ms
+  prisma:client prisma.seat.updateMany({
+  prisma:client   data: {
+  prisma:client     claimedBy: 'user4',
+  prisma:client     version: {
+  prisma:client       increment: 1
+  prisma:client     }
+  prisma:client   },
+  prisma:client   where: {
+  prisma:client     id: 2,
+  prisma:client     version: 0
+  prisma:client   }
+  prisma:client }) +0ms
+  prisma:client Generated request: +0ms
+  prisma:client mutation {
+  prisma:client   updateManySeat(
+  prisma:client     data: {
+  prisma:client       claimedBy: "user4"
+  prisma:client       version: {
+  prisma:client         increment: 1
+  prisma:client       }
+  prisma:client     }
+  prisma:client     where: {
+  prisma:client       id: 2
+  prisma:client       version: 0
+  prisma:client     }
+  prisma:client   ) {
+  prisma:client     count
+  prisma:client   }
+  prisma:client }
+  prisma:client  +0ms
+  prisma:client:libraryEngine sending request, this.libraryStarted: true +8ms
+user1 claimed the seat
+user3 claimed the seat
+user2 claimed the seat
+user6 claimed the seat
+There were 2 exceptions
+  prisma:client:libraryEngine hookProcess received: beforeExit +32ms
+  prisma:client:libraryEngine runBeforeExit +0ms
+  prisma:client:libraryEngine hookProcess received: exit +1ms

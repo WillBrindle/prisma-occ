@@ -1,0 +1,16 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgres://test:password@localhost:5432/test"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Seat {
+  id        Int   @id @default(autoincrement())
+  userId    Int?
+  claimedBy String?
+  movie     String?
+  version   Int @default(0)
+}
