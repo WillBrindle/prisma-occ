@@ -6,7 +6,7 @@
 docker-compose up -d
 ```
 
-2. Apply migration to create database:
+2. Apply migration to create table:
 
 ```
 npx prisma migrate deploy
