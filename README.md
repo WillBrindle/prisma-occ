@@ -6,6 +6,12 @@
 docker-compose up -d
 ```
 
+2. Install deps
+
+```
+yarn install
+```
+
 2. Apply migration to create table:
 
 ```
