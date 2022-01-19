@@ -26,7 +26,7 @@ const bookSeat = async (movieName, user) => {
     },
     where: {
       id: availableSeat.id,
-      version: availableSeat.version, // This version field is the key; only claim seat if in-memory version matches database version, indicating that the field has not been updated
+      version: availableSeat.version,
     },
   })
   

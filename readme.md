@@ -32,3 +32,5 @@ There were 4 exceptions
 ```
 
 Note: this occurs 90% of the time for me but may need to run multiple times to get to occur.
+
+Full log when run with DEBUG="*" included in debug.txt
